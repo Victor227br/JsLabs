@@ -1,0 +1,97 @@
+body {
+margin: 0;
+padding: 0;
+background-color: 	#727472;
+font-family: 'Fredoka', sans-serif;
+}
+
+.navBar{
+    display: flex;
+    height: 55px;
+    background-color: #2a3338;
+    width: 100%;
+    border-bottom: 3px solid #FFFF00;
+}
+
+.divJsLabs{
+    display: flex;
+    align-items: center;
+}
+
+.JsLabs{
+    margin-left: 40px;
+    color: white;
+    font-size: 26px;
+    font: bold;
+}
+
+.JsLabs span{
+    color: #FFFF00;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40vw;
+    width: 100%;
+}
+
+.projects{
+    color: white;
+    border-bottom: #FFFF00 2px solid;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 70vw;
+    height: 37vw;
+}
+
+.cardsProjects{
+    background-color: #2a3338;
+    height: 12vw;
+    width: 30vw;
+    margin: 20px;
+    border: #FFFF00 2px solid;
+    border-radius: 5px;
+}
+
+.alignCards{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ color: white;
+}
+
+.projectsTitle{
+    margin-bottom: 5vw;
+}
+
+.btnStyle{
+    width: 10vw;
+    height: 26px;
+    border-radius: 5px;
+    border: 0000;
+    color:#2a3338;
+    background-color: yellow;
+}
+
+a{
+    color:#2a3338;
+    border: none;
+    text-decoration: none;
+}
+
+
+@media (max-width: 780px){
+    
+}
+
