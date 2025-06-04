@@ -7,13 +7,14 @@ body{
 .aboutProjects{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #E0E0E0;
     height:34vw;
 }
 
 .alignAbout{
     display: flex;
-    margin: 5vw;
+    margin: 4vw;
     width: 40vw;
     flex-direction: column;
     justify-content: space-around;
@@ -21,19 +22,23 @@ body{
     padding-left: 3vw;
 }
 
+.title{
+    font-size:4vw;
+    color: #6c63ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .alignAbout h2{
     color: #333333;
     font-size: 18px;
     margin-bottom: 2vw;
+    font-family: 'Inter', sans-serif;
 }
 
-.title{
-    font-size:4vw;
-    color: #6c63ff;
-}
 
 .ilustration{
-    size: 40px;
+    size: 30px;
+    margin-right: 7vw;
 }
 
 .btngGitHub{
@@ -55,10 +60,50 @@ body{
     justify-content: center;
 }
 
-.divProjects h2{
-    font-size: 2vw;
+.about{
+    font-size: 3vw;
     border-bottom:#6c63ff 2px solid;
     color:white;
+}
+
+.about span{
+    color: #6c63ff;
+}
+
+.divProjects h2{
+    font-size: 3vw;
+    border-bottom:#6c63ff 2px solid;
+    color:white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vw;
+    margin-top: 3vw;
+}
+
+.projectsCards{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 20vw;
+    height: 24vw;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    color: #6c63ff;
+}
+
+.picturesProjects{
+    height: 20px;
+    width: 20vw;
+    height: 18vw;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    
 }
 
 
