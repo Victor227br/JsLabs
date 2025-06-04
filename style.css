@@ -1,97 +1,67 @@
-body {
-margin: 0;
-padding: 0;
-background-color: 	#727472;
-font-family: 'Fredoka', sans-serif;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
 }
 
-.navBar{
-    display: flex;
-    height: 55px;
-    background-color: #2a3338;
-    width: 100%;
-    border-bottom: 3px solid #FFFF00;
-}
-
-.divJsLabs{
+.aboutProjects{
     display: flex;
     align-items: center;
+    background-color: #E0E0E0;
+    height:34vw;
 }
 
-.JsLabs{
-    margin-left: 40px;
-    color: white;
-    font-size: 26px;
-    font: bold;
-}
-
-.JsLabs span{
-    color: #FFFF00;
-}
-
-section{
+.alignAbout{
     display: flex;
-    justify-content: center;
+    margin: 5vw;
+    width: 40vw;
     flex-direction: column;
-    align-items: center;
-    height: 40vw;
-    width: 100%;
-}
-
-.projects{
-    color: white;
-    border-bottom: #FFFF00 2px solid;
-    font-size: 35px;
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    width: 70vw;
-    height: 37vw;
+    align-items: flex-start;
+    padding-left: 3vw;
 }
 
-.cardsProjects{
-    background-color: #2a3338;
-    height: 12vw;
-    width: 30vw;
-    margin: 20px;
-    border: #FFFF00 2px solid;
-    border-radius: 5px;
+.alignAbout h2{
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 2vw;
 }
 
-.alignCards{
- display: flex;
- flex-direction: column;
- justify-content: space-around;
- align-items: center;
- color: white;
+.title{
+    font-size:4vw;
+    color: #6c63ff;
 }
 
-.projectsTitle{
-    margin-bottom: 5vw;
+.ilustration{
+    size: 40px;
 }
 
-.btnStyle{
+.btngGitHub{
     width: 10vw;
-    height: 26px;
+    height: 2vw;
+    font-size: 15px;
+    background-color: black;
+    color: white;
     border-radius: 5px;
     border: 0000;
-    color:#2a3338;
-    background-color: yellow;
+    font: bold;
+    cursor: pointer;
+
 }
 
-a{
-    color:#2a3338;
-    border: none;
-    text-decoration: none;
+.divProjects{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.divProjects h2{
+    font-size: 2vw;
+    border-bottom:#6c63ff 2px solid;
+    color:white;
 }
 
 
-@media (max-width: 780px){
-    
-}
+
+
 
